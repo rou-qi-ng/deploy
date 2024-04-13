@@ -23,6 +23,7 @@ jobs:
         run: docker build -t sangasangasanga/deploy .
       - name: Publish image to docker hub
         run: docker push sangasangasanga/deploy:latest
+        
 
   deploy:
     needs: build
