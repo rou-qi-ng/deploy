@@ -16,6 +16,5 @@ public class TestController {
 		object.put("email", "integrationninjas@gmail.com");
 		return object;
 	}
-	
 
 }
